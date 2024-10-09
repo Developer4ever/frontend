@@ -9,8 +9,12 @@
   },
   "private": true,
   "dependencies": {
+    "@fluentui/react-components": "^9.54.17",
+    "@hookform/resolvers": "^3.9.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "react-hook-form": "^7.53.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

@@ -3,12 +3,17 @@ import styles from './app.module.css';
 
 import NxWelcome from './nx-welcome';
 
-export function App() {
+import React from 'react';
+import FormDialog from '../components/FormDialog';
+import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+
+const App: React.FC = () => {
   return (
-    <div>
-      <NxWelcome title="form-app" />
-    </div>
+    <FluentProvider theme={webLightTheme}>
+      <FormDialog />
+    </FluentProvider>
   );
-}
+};
 
 export default App;
+
